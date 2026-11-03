@@ -1,0 +1,316 @@
+{
+  "A_duration_outlier_contribution": [
+    {
+      "table": "llm_calls",
+      "n": 9310255,
+      "sum_ms": 110416773979.16928,
+      "n_gt_1h": 315,
+      "sum_gt_1h_ms": 16350133614.823208,
+      "share_gt_1h": 0.14807653788099034,
+      "n_gt_24h": 33,
+      "sum_gt_24h_ms": 10304541055.388,
+      "share_gt_24h": 0.09332405470686915,
+      "n_negative": 23,
+      "sum_negative_ms": -284141962.1955999
+    },
+    {
+      "table": "tool_batches",
+      "n": 7849891,
+      "sum_ms": 112156497273.18802,
+      "n_gt_1h": 2505,
+      "sum_gt_1h_ms": 70462971220.3194,
+      "share_gt_1h": 0.6282558115976771,
+      "n_gt_24h": 114,
+      "sum_gt_24h_ms": 28858369694.706097,
+      "share_gt_24h": 0.25730448432616077,
+      "n_negative": 2,
+      "sum_negative_ms": -7945173359.547501
+    },
+    {
+      "table": "tool_calls",
+      "n": 8681190,
+      "sum_ms": 123462630392.50192,
+      "n_gt_1h": 2555,
+      "sum_gt_1h_ms": 72680632492.4678,
+      "share_gt_1h": 0.5886852747378515,
+      "n_gt_24h": 115,
+      "sum_gt_24h_ms": 30366780155.30969,
+      "share_gt_24h": 0.24595928386403398,
+      "n_negative": 0,
+      "sum_negative_ms": null
+    }
+  ],
+  "B_null_token_calls_by_model_kind_and_result": [
+    {
+      "is_tool_model": true,
+      "result": "Success",
+      "n": 109280
+    },
+    {
+      "is_tool_model": false,
+      "result": "UserCancel",
+      "n": 71110
+    },
+    {
+      "is_tool_model": false,
+      "result": "Failure",
+      "n": 40831
+    },
+    {
+      "is_tool_model": false,
+      "result": "Success",
+      "n": 22136
+    },
+    {
+      "is_tool_model": false,
+      "result": "UserFault",
+      "n": 9694
+    },
+    {
+      "is_tool_model": true,
+      "result": "Failure",
+      "n": 1166
+    },
+    {
+      "is_tool_model": true,
+      "result": "UserCancel",
+      "n": 826
+    },
+    {
+      "is_tool_model": true,
+      "result": "UserFault",
+      "n": 43
+    }
+  ],
+  "C_unmatched_batches_by_empty_result_firstturn": [
+    {
+      "empty_batch": false,
+      "result": "Success",
+      "first_turn": false,
+      "n": 45308
+    },
+    {
+      "empty_batch": false,
+      "result": "Success",
+      "first_turn": true,
+      "n": 29012
+    },
+    {
+      "empty_batch": true,
+      "result": "Failure",
+      "first_turn": false,
+      "n": 490
+    },
+    {
+      "empty_batch": true,
+      "result": "Failure",
+      "first_turn": true,
+      "n": 84
+    },
+    {
+      "empty_batch": true,
+      "result": "UserCancel",
+      "first_turn": false,
+      "n": 3
+    }
+  ],
+  "D_prompt_segment_types": [
+    {
+      "seg_type": "History",
+      "role": "assistant",
+      "len": 7,
+      "hex": "486973746F7279",
+      "n": 274563330,
+      "tokens": 88208722880
+    },
+    {
+      "seg_type": "History",
+      "role": "tool",
+      "len": 7,
+      "hex": "486973746F7279",
+      "n": 262745641,
+      "tokens": 178305179169
+    },
+    {
+      "seg_type": "FunctionCalls",
+      "role": "tool",
+      "len": 13,
+      "hex": "46756E6374696F6E43616C6C73",
+      "n": 107339450,
+      "tokens": 107969282683
+    },
+    {
+      "seg_type": "History",
+      "role": "user",
+      "len": 7,
+      "hex": "486973746F7279",
+      "n": 105713781,
+      "tokens": 97034301379
+    },
+    {
+      "seg_type": "FunctionCalls",
+      "role": "assistant",
+      "len": 13,
+      "hex": "46756E6374696F6E43616C6C73",
+      "n": 95595935,
+      "tokens": 28412385230
+    },
+    {
+      "seg_type": "Context",
+      "role": "user",
+      "len": 7,
+      "hex": "436F6E74657874",
+      "n": 12441044,
+      "tokens": 25387779485
+    },
+    {
+      "seg_type": "UserMessage",
+      "role": "user",
+      "len": 11,
+      "hex": "557365724D657373616765",
+      "n": 8896842,
+      "tokens": 4215037477
+    },
+    {
+      "seg_type": "System",
+      "role": "system",
+      "len": 6,
+      "hex": "53797374656D",
+      "n": 8896842,
+      "tokens": 43788789849
+    },
+    {
+      "seg_type": "IdeState",
+      "role": "user",
+      "len": 8,
+      "hex": "4964655374617465",
+      "n": 5905910,
+      "tokens": 2322020047
+    },
+    {
+      "seg_type": "RepositoryWideCustomInstructions",
+      "role": "system",
+      "len": 32,
+      "hex": "5265706F7369746F727957696465437573746F6D496E737472756374696F6E73",
+      "n": 3761904,
+      "tokens": 13492615716
+    },
+    {
+      "seg_type": "AgentSkillsInstructions",
+      "role": "system",
+      "len": 23,
+      "hex": "4167656E74536B696C6C73496E737472756374696F6E73",
+      "n": 779908,
+      "tokens": 1828535643
+    },
+    {
+      "seg_type": "PathSpecificCustomInstructions",
+      "role": "system",
+      "len": 30,
+      "hex": "506174685370656369666963437573746F6D496E737472756374696F6E73",
+      "n": 126990,
+      "tokens": 825746857
+    },
+    {
+      "seg_type": "FunctionCalls",
+      "role": "user",
+      "len": 13,
+      "hex": "46756E6374696F6E43616C6C73",
+      "n": 88192,
+      "tokens": 865403899
+    },
+    {
+      "seg_type": "McpInstructions",
+      "role": "system",
+      "len": 15,
+      "hex": "4D6370496E737472756374696F6E73",
+      "n": 1157,
+      "tokens": 654835
+    },
+    {
+      "seg_type": "ResponseInstructions",
+      "role": "user",
+      "len": 20,
+      "hex": "526573706F6E7365496E737472756374696F6E73",
+      "n": 9,
+      "tokens": 381
+    }
+  ],
+  "E_status0_by_tool": [
+    {
+      "name": "run_command_in_terminal",
+      "status0": 187445,
+      "calls": 1385182
+    },
+    {
+      "name": "run_build",
+      "status0": 70346,
+      "calls": 421942
+    },
+    {
+      "name": "get_file",
+      "status0": 8299,
+      "calls": 3085349
+    },
+    {
+      "name": "replace_string_in_file",
+      "status0": 8165,
+      "calls": 825832
+    },
+    {
+      "name": "get_output_window_logs",
+      "status0": 5061,
+      "calls": 15277
+    },
+    {
+      "name": "create_file",
+      "status0": 2398,
+      "calls": 253625
+    },
+    {
+      "name": "detect_memories",
+      "status0": 1855,
+      "calls": 13843
+    },
+    {
+      "name": "multi_replace_string_in_file",
+      "status0": 1828,
+      "calls": 171108
+    },
+    {
+      "name": "apply_patch",
+      "status0": 1769,
+      "calls": 321350
+    },
+    {
+      "name": "edit_file",
+      "status0": 1098,
+      "calls": 95338
+    },
+    {
+      "name": "nuget_get-latest-package-version",
+      "status0": 804,
+      "calls": 4302
+    },
+    {
+      "name": "tool_47334d3539ce",
+      "status0": 733,
+      "calls": 1341
+    },
+    {
+      "name": "tool_bdf2add0a4a7",
+      "status0": 463,
+      "calls": 1487
+    },
+    {
+      "name": "tool_99c26c8db4ab",
+      "status0": 376,
+      "calls": 1355
+    },
+    {
+      "name": "tool_e38251cdc08a",
+      "status0": 374,
+      "calls": 3197
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+n_turns,span_ms_total,llm_ms_total,tool_ms_total,positive_residual_ms_total,llm_share_of_span,tool_share_of_span,positive_residual_share,turns_negative_residual,turns_nonpositive_span,turns_llm_ms_exceeds_span
+1188765,308837308593,109248115894.21155,117998701213.19186,82426588594.7338,0.3537400205691591,0.3820739850077374,0.2668932356982794,189484,6,168061

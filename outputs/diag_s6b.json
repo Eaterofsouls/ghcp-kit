@@ -1,0 +1,803 @@
+{
+  "D1_message_id_structure": [
+    {
+      "day": "2026-06-01",
+      "n_calls": 1748037,
+      "null_message_id": 0,
+      "distinct_message_id": 236207,
+      "distinct_session_message_id": 236207,
+      "distinct_session_turn_message_id": 236237,
+      "distinct_session_turn": 222774,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 3.0,
+      "max_calls_per_turn_message_id": 205
+    },
+    {
+      "day": "2026-06-02",
+      "n_calls": 1827928,
+      "null_message_id": 0,
+      "distinct_message_id": 248282,
+      "distinct_session_message_id": 248282,
+      "distinct_session_turn_message_id": 248304,
+      "distinct_session_turn": 235008,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 3.0,
+      "max_calls_per_turn_message_id": 256
+    },
+    {
+      "day": "2026-06-03",
+      "n_calls": 1815851,
+      "null_message_id": 0,
+      "distinct_message_id": 252170,
+      "distinct_session_message_id": 252170,
+      "distinct_session_turn_message_id": 252190,
+      "distinct_session_turn": 238799,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 3.0,
+      "max_calls_per_turn_message_id": 192
+    },
+    {
+      "day": "2026-06-04",
+      "n_calls": 1656229,
+      "null_message_id": 0,
+      "distinct_message_id": 228847,
+      "distinct_session_message_id": 228847,
+      "distinct_session_turn_message_id": 228891,
+      "distinct_session_turn": 216676,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 3.0,
+      "max_calls_per_turn_message_id": 208
+    },
+    {
+      "day": "2026-06-05",
+      "n_calls": 1531103,
+      "null_message_id": 0,
+      "distinct_message_id": 192759,
+      "distinct_session_message_id": 192759,
+      "distinct_session_turn_message_id": 192799,
+      "distinct_session_turn": 182662,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 4.0,
+      "max_calls_per_turn_message_id": 256
+    },
+    {
+      "day": "2026-06-06",
+      "n_calls": 354297,
+      "null_message_id": 0,
+      "distinct_message_id": 43384,
+      "distinct_session_message_id": 43384,
+      "distinct_session_turn_message_id": 43384,
+      "distinct_session_turn": 41531,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 4.0,
+      "max_calls_per_turn_message_id": 238
+    },
+    {
+      "day": "2026-06-07",
+      "n_calls": 376810,
+      "null_message_id": 0,
+      "distinct_message_id": 47525,
+      "distinct_session_message_id": 47525,
+      "distinct_session_turn_message_id": 47525,
+      "distinct_session_turn": 45200,
+      "message_id_equals_turn_id": 0,
+      "median_calls_per_turn_message_id": 4.0,
+      "max_calls_per_turn_message_id": 209
+    }
+  ],
+  "D2_cross_turn_per_batch": {
+    "per_day": [
+      {
+        "day": "2026-06-01",
+        "batches": 1488918,
+        "same_turn_only": 1473528,
+        "other_turn_only": 0,
+        "both": 35,
+        "unmatched": 15355,
+        "nonempty_batches": 1472571,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 35
+      },
+      {
+        "day": "2026-06-02",
+        "batches": 1524765,
+        "same_turn_only": 1509762,
+        "other_turn_only": 0,
+        "both": 34,
+        "unmatched": 14969,
+        "nonempty_batches": 1508330,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 34
+      },
+      {
+        "day": "2026-06-03",
+        "batches": 1529776,
+        "same_turn_only": 1515590,
+        "other_turn_only": 0,
+        "both": 22,
+        "unmatched": 14164,
+        "nonempty_batches": 1513948,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 22
+      },
+      {
+        "day": "2026-06-04",
+        "batches": 1396040,
+        "same_turn_only": 1383352,
+        "other_turn_only": 0,
+        "both": 40,
+        "unmatched": 12648,
+        "nonempty_batches": 1380186,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 40
+      },
+      {
+        "day": "2026-06-05",
+        "batches": 1292992,
+        "same_turn_only": 1281655,
+        "other_turn_only": 0,
+        "both": 48,
+        "unmatched": 11289,
+        "nonempty_batches": 1278874,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 48
+      },
+      {
+        "day": "2026-06-06",
+        "batches": 296227,
+        "same_turn_only": 293128,
+        "other_turn_only": 0,
+        "both": 0,
+        "unmatched": 3099,
+        "nonempty_batches": 294359,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 0
+      },
+      {
+        "day": "2026-06-07",
+        "batches": 321173,
+        "same_turn_only": 317800,
+        "other_turn_only": 0,
+        "both": 0,
+        "unmatched": 3373,
+        "nonempty_batches": 318993,
+        "nonempty_other_turn_only": 0,
+        "nonempty_any_other_turn": 0
+      }
+    ],
+    "total": {
+      "batches": 7849891,
+      "same_turn_only": 7774815,
+      "other_turn_only": 0,
+      "both": 179,
+      "unmatched": 74897,
+      "nonempty_batches": 7767261,
+      "nonempty_other_turn_only": 0,
+      "nonempty_any_other_turn": 179,
+      "pct_other_turn_only_of_batches": 0.0,
+      "pct_any_other_turn_of_batches": 0.0023,
+      "pct_nonempty_any_other_turn_of_nonempty": 0.0023
+    }
+  },
+  "D3_timestamp_semantics_consecutive_calls": {
+    "per_day": [
+      {
+        "day": "2026-06-01",
+        "pairs": 1525263,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 522773,
+        "violates_if_ts_is_end": 842
+      },
+      {
+        "day": "2026-06-02",
+        "pairs": 1592920,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 548634,
+        "violates_if_ts_is_end": 1048
+      },
+      {
+        "day": "2026-06-03",
+        "pairs": 1577052,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 540075,
+        "violates_if_ts_is_end": 1003
+      },
+      {
+        "day": "2026-06-04",
+        "pairs": 1439553,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 494419,
+        "violates_if_ts_is_end": 792
+      },
+      {
+        "day": "2026-06-05",
+        "pairs": 1348441,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 469779,
+        "violates_if_ts_is_end": 822
+      },
+      {
+        "day": "2026-06-06",
+        "pairs": 312766,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 108397,
+        "violates_if_ts_is_end": 253
+      },
+      {
+        "day": "2026-06-07",
+        "pairs": 331610,
+        "ts_goes_backwards": 0,
+        "violates_if_ts_is_start": 115391,
+        "violates_if_ts_is_end": 162
+      }
+    ],
+    "total": {
+      "pairs": 8127605,
+      "ts_goes_backwards": 0,
+      "violates_if_ts_is_start": 2799468,
+      "violates_if_ts_is_end": 4922,
+      "share_violates_if_ts_is_start": 0.34444,
+      "share_violates_if_ts_is_end": 0.00061
+    },
+    "reading": "start: next call should begin after prev ts+dur (gap>=prev dur). end: next call's ts-dur should be after prev ts (gap>=own dur). The semantics with the clearly lower violation share is better supported; similar shares = undetermined."
+  },
+  "D4_batch_vs_call_timestamp_unambiguous_pairs": {
+    "per_day": [
+      {
+        "day": "2026-06-01",
+        "unambiguous_pairs": 1648,
+        "batch_ts_ge_call_ts": 1368,
+        "batch_ts_ge_call_ts_plus_dur": 710
+      },
+      {
+        "day": "2026-06-02",
+        "unambiguous_pairs": 1616,
+        "batch_ts_ge_call_ts": 1427,
+        "batch_ts_ge_call_ts_plus_dur": 749
+      },
+      {
+        "day": "2026-06-03",
+        "unambiguous_pairs": 1706,
+        "batch_ts_ge_call_ts": 1454,
+        "batch_ts_ge_call_ts_plus_dur": 817
+      },
+      {
+        "day": "2026-06-04",
+        "unambiguous_pairs": 1545,
+        "batch_ts_ge_call_ts": 1210,
+        "batch_ts_ge_call_ts_plus_dur": 668
+      },
+      {
+        "day": "2026-06-05",
+        "unambiguous_pairs": 1228,
+        "batch_ts_ge_call_ts": 1024,
+        "batch_ts_ge_call_ts_plus_dur": 520
+      },
+      {
+        "day": "2026-06-06",
+        "unambiguous_pairs": 278,
+        "batch_ts_ge_call_ts": 227,
+        "batch_ts_ge_call_ts_plus_dur": 133
+      },
+      {
+        "day": "2026-06-07",
+        "unambiguous_pairs": 312,
+        "batch_ts_ge_call_ts": 263,
+        "batch_ts_ge_call_ts_plus_dur": 145
+      }
+    ],
+    "total": {
+      "unambiguous_pairs": 8333,
+      "batch_ts_ge_call_ts": 6973,
+      "batch_ts_ge_call_ts_plus_dur": 3742
+    }
+  },
+  "D5_models": [
+    {
+      "model": "Model A",
+      "calls": 2398528,
+      "null_token_calls": 25419,
+      "prompt_tokens": 164877301650
+    },
+    {
+      "model": "Model B",
+      "calls": 1315292,
+      "null_token_calls": 17763,
+      "prompt_tokens": 73888860700
+    },
+    {
+      "model": "Model C",
+      "calls": 975680,
+      "null_token_calls": 8870,
+      "prompt_tokens": 72961481687
+    },
+    {
+      "model": "Model F",
+      "calls": 849483,
+      "null_token_calls": 19319,
+      "prompt_tokens": 36381052159
+    },
+    {
+      "model": "Model E",
+      "calls": 767234,
+      "null_token_calls": 8823,
+      "prompt_tokens": 42063082533
+    },
+    {
+      "model": "Model D",
+      "calls": 763028,
+      "null_token_calls": 8639,
+      "prompt_tokens": 58406883730
+    },
+    {
+      "model": "Model H",
+      "calls": 434139,
+      "null_token_calls": 4585,
+      "prompt_tokens": 41398476918
+    },
+    {
+      "model": "Model I",
+      "calls": 400350,
+      "null_token_calls": 4947,
+      "prompt_tokens": 36266976514
+    },
+    {
+      "model": "Model G",
+      "calls": 387557,
+      "null_token_calls": 4160,
+      "prompt_tokens": 37599249461
+    },
+    {
+      "model": "Model K",
+      "calls": 200581,
+      "null_token_calls": 16122,
+      "prompt_tokens": 15592859356
+    },
+    {
+      "model": "Model J",
+      "calls": 178663,
+      "null_token_calls": 2176,
+      "prompt_tokens": 15759986661
+    },
+    {
+      "model": "Model L",
+      "calls": 113306,
+      "null_token_calls": 1412,
+      "prompt_tokens": 7799640079
+    },
+    {
+      "model": "tool-model",
+      "calls": 111315,
+      "null_token_calls": 111315,
+      "prompt_tokens": null
+    },
+    {
+      "model": "Model M",
+      "calls": 65631,
+      "null_token_calls": 1271,
+      "prompt_tokens": 3174203174
+    },
+    {
+      "model": "Model P",
+      "calls": 46842,
+      "null_token_calls": 417,
+      "prompt_tokens": 9010536340
+    },
+    {
+      "model": "Model O",
+      "calls": 42084,
+      "null_token_calls": 352,
+      "prompt_tokens": 3520909850
+    },
+    {
+      "model": "Model N",
+      "calls": 41435,
+      "null_token_calls": 788,
+      "prompt_tokens": 2511769438
+    },
+    {
+      "model": "Model Other",
+      "calls": 32564,
+      "null_token_calls": 10951,
+      "prompt_tokens": 567127633
+    },
+    {
+      "model": "Model Q",
+      "calls": 32430,
+      "null_token_calls": 307,
+      "prompt_tokens": 1824681926
+    },
+    {
+      "model": "Model T",
+      "calls": 25302,
+      "null_token_calls": 205,
+      "prompt_tokens": 2166166749
+    },
+    {
+      "model": "Model R",
+      "calls": 23498,
+      "null_token_calls": 2798,
+      "prompt_tokens": 1487662641
+    },
+    {
+      "model": "Model U",
+      "calls": 20417,
+      "null_token_calls": 543,
+      "prompt_tokens": 521771315
+    },
+    {
+      "model": "Model S",
+      "calls": 19206,
+      "null_token_calls": 161,
+      "prompt_tokens": 1216090234
+    },
+    {
+      "model": "Model V",
+      "calls": 15158,
+      "null_token_calls": 23,
+      "prompt_tokens": 579500630
+    },
+    {
+      "model": "Model W",
+      "calls": 14234,
+      "null_token_calls": 334,
+      "prompt_tokens": 608620444
+    },
+    {
+      "model": "Model X",
+      "calls": 9069,
+      "null_token_calls": 333,
+      "prompt_tokens": 353590060
+    },
+    {
+      "model": "Model Z",
+      "calls": 7262,
+      "null_token_calls": 366,
+      "prompt_tokens": 158393358
+    },
+    {
+      "model": "Model Y",
+      "calls": 6717,
+      "null_token_calls": 4,
+      "prompt_tokens": 275833722
+    },
+    {
+      "model": "Model AA",
+      "calls": 4354,
+      "null_token_calls": 0,
+      "prompt_tokens": 205260498
+    },
+    {
+      "model": "Model AB",
+      "calls": 3145,
+      "null_token_calls": 24,
+      "prompt_tokens": 179309181
+    },
+    {
+      "model": "Model AC",
+      "calls": 3017,
+      "null_token_calls": 17,
+      "prompt_tokens": 41969782
+    },
+    {
+      "model": "Model AD",
+      "calls": 2405,
+      "null_token_calls": 2405,
+      "prompt_tokens": null
+    },
+    {
+      "model": "Model AE",
+      "calls": 144,
+      "null_token_calls": 128,
+      "prompt_tokens": 874791
+    },
+    {
+      "model": "Model AK",
+      "calls": 77,
+      "null_token_calls": 77,
+      "prompt_tokens": null
+    },
+    {
+      "model": "Model AF",
+      "calls": 73,
+      "null_token_calls": 10,
+      "prompt_tokens": 1410950
+    },
+    {
+      "model": "Model AG",
+      "calls": 19,
+      "null_token_calls": 19,
+      "prompt_tokens": null
+    },
+    {
+      "model": "Model AJ",
+      "calls": 10,
+      "null_token_calls": 3,
+      "prompt_tokens": 86155
+    },
+    {
+      "model": "Model AH",
+      "calls": 6,
+      "null_token_calls": 0,
+      "prompt_tokens": 49825
+    }
+  ],
+  "D6_negative_llm_calls": [
+    [
+      "2026-06-06",
+      "Model A",
+      "Success",
+      "-259082580.8568",
+      "2026-06-03 20:27:40+00",
+      "33085"
+    ],
+    [
+      "2026-06-05",
+      "Model A",
+      "UserCancel",
+      "-21344062.5591",
+      "2026-06-05 15:47:40+00",
+      "None"
+    ],
+    [
+      "2026-06-03",
+      "Model D",
+      "Failure",
+      "-2338760.723",
+      "2026-06-03 02:36:40+00",
+      "None"
+    ],
+    [
+      "2026-06-05",
+      "Model A",
+      "Success",
+      "-1063988.5305",
+      "2026-06-05 07:21:35.363+00",
+      "120177"
+    ],
+    [
+      "2026-06-01",
+      "Model B",
+      "Success",
+      "-53777.7631",
+      "2026-06-01 15:11:32.072+00",
+      "41781"
+    ],
+    [
+      "2026-06-01",
+      "Model A",
+      "Success",
+      "-48657.7484",
+      "2026-06-01 05:55:22.772+00",
+      "65691"
+    ],
+    [
+      "2026-06-01",
+      "Model B",
+      "Success",
+      "-46632.5622",
+      "2026-06-01 15:15:05.645+00",
+      "52849"
+    ],
+    [
+      "2026-06-04",
+      "Model E",
+      "Success",
+      "-41948.9223",
+      "2026-06-04 02:31:37.156+00",
+      "47701"
+    ],
+    [
+      "2026-06-01",
+      "Model A",
+      "Success",
+      "-32685.9261",
+      "2026-06-01 10:19:00+00",
+      "13095"
+    ],
+    [
+      "2026-06-04",
+      "Model A",
+      "Success",
+      "-28848.0533",
+      "2026-06-04 13:16:28.757+00",
+      "49541"
+    ],
+    [
+      "2026-06-01",
+      "Model A",
+      "Success",
+      "-20230.9776",
+      "2026-06-01 10:29:24.996+00",
+      "40112"
+    ],
+    [
+      "2026-06-02",
+      "Model F",
+      "Success",
+      "-20173.9515",
+      "2026-06-02 22:09:30+00",
+      "8347"
+    ],
+    [
+      "2026-06-02",
+      "Model I",
+      "Success",
+      "-3249.3126",
+      "2026-06-02 12:24:03.735+00",
+      "82770"
+    ],
+    [
+      "2026-06-01",
+      "Model E",
+      "Success",
+      "-3030.9865",
+      "2026-06-01 16:32:34.686+00",
+      "62915"
+    ],
+    [
+      "2026-06-02",
+      "Model B",
+      "Success",
+      "-2635.2193",
+      "2026-06-02 16:43:20.551+00",
+      "95366"
+    ],
+    [
+      "2026-06-04",
+      "Model A",
+      "Success",
+      "-2319.5621",
+      "2026-06-04 12:50:55.328+00",
+      "31214"
+    ],
+    [
+      "2026-06-07",
+      "Model E",
+      "Success",
+      "-2175.9553",
+      "2026-06-07 18:06:42.81+00",
+      "45621"
+    ],
+    [
+      "2026-06-04",
+      "Model F",
+      "UserCancel",
+      "-1792.5335",
+      "2026-06-04 12:28:29.047+00",
+      "None"
+    ],
+    [
+      "2026-06-03",
+      "Model F",
+      "Success",
+      "-1791.9105",
+      "2026-06-03 08:33:33.166+00",
+      "53898"
+    ],
+    [
+      "2026-06-01",
+      "Model C",
+      "Success",
+      "-1064.0167",
+      "2026-06-01 12:58:52.155+00",
+      "56897"
+    ],
+    [
+      "2026-06-07",
+      "Model B",
+      "Success",
+      "-666.6164",
+      "2026-06-07 11:18:04.933+00",
+      "44803"
+    ],
+    [
+      "2026-06-04",
+      "Model O",
+      "Success",
+      "-633.4235",
+      "2026-06-04 00:27:45.698+00",
+      "89668"
+    ],
+    [
+      "2026-06-02",
+      "Model A",
+      "Success",
+      "-254.0853",
+      "2026-06-02 08:42:02.067+00",
+      "51766"
+    ]
+  ],
+  "D6_negative_tool_batches": [
+    [
+      "2026-06-01",
+      "1",
+      "1",
+      "-7945171910.4568",
+      "2026-03-01 17:41:50+00",
+      "1"
+    ],
+    [
+      "2026-06-06",
+      "3",
+      "4",
+      "-1449.0907",
+      "2026-06-06 19:09:15.975+00",
+      "1"
+    ]
+  ],
+  "D6_duration_extremes": {
+    "llm": [
+      1440742109.2219,
+      315,
+      83564.93889199886
+    ],
+    "tool_batch": [
+      1622548616.5539,
+      2505,
+      101494.96969999911
+    ],
+    "keys": [
+      "max_ms",
+      "n_over_1h",
+      "p99_ms"
+    ]
+  },
+  "D7_oow_llm_by_utc_month": [
+    [
+      "2019-06-01 00:00:00+00",
+      "2",
+      "1"
+    ],
+    [
+      "2025-09-01 00:00:00+00",
+      "195",
+      "1"
+    ],
+    [
+      "2026-01-01 00:00:00+00",
+      "46",
+      "2"
+    ],
+    [
+      "2026-02-01 00:00:00+00",
+      "3",
+      "1"
+    ],
+    [
+      "2026-03-01 00:00:00+00",
+      "9",
+      "2"
+    ],
+    [
+      "2026-04-01 00:00:00+00",
+      "2115",
+      "32"
+    ],
+    [
+      "2026-05-01 00:00:00+00",
+      "6735",
+      "388"
+    ],
+    [
+      "2026-06-01 00:00:00+00",
+      "316",
+      "16"
+    ],
+    [
+      "2026-07-01 00:00:00+00",
+      "160",
+      "5"
+    ]
+  ],
+  "D7_oow_llm_near_vs_far": {
+    "near_within_1_day": 2416,
+    "far_more_than_1_day": 7165,
+    "far_distinct_turns": 807,
+    "far_distinct_sessions": 226
+  },
+  "D7_oow_tool_batches_near_vs_far": {
+    "near_within_1_day": 2088,
+    "far_more_than_1_day": 4956
+  }
+}

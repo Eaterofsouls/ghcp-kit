@@ -1,0 +1,45 @@
+# Python virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+pip-cache/
+
+# Large dataset archives, raw tarballs, and Parquet data (from D:\)
+raw/
+*.tar.gz
+*.tar
+parquet/
+*.parquet
+staging/
+tmp/
+temp/
+
+# Databases, lock files, and DuckDB spill/temp files
+state/
+*.db
+*.db-journal
+*.duckdb
+*.duckdb.tmp
+*.tmp
+
+# Logs and system execution summaries
+logs/
+*.log
+perf.csv
+STOP_REASON.txt
+guard_summary_*.json
+
+# Video recordings
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Secrets, credentials, environment keys
+.env
+*.token
+*.key
+*secret*

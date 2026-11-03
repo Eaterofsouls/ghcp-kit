@@ -1,0 +1,31 @@
+first_six_tools,n_turns
+get_file,20275
+replace_string_in_file,18763
+run_command_in_terminal,14577
+run_command_in_terminal > run_command_in_terminal > run_command_in_terminal > run_command_in_terminal > run_command_in_terminal > run_command_in_terminal,13029
+get_file > get_file > get_file > get_file > get_file > get_file,12561
+get_file > replace_string_in_file,12031
+apply_patch,9127
+apply_patch > run_build,9018
+get_file > get_file,8245
+get_file > replace_string_in_file > run_build,7892
+replace_string_in_file > run_build,7608
+run_command_in_terminal > run_command_in_terminal,6874
+run_command_in_terminal > run_command_in_terminal > run_command_in_terminal,4343
+create_file,4143
+multi_replace_string_in_file,3867
+code_search,3822
+get_file > apply_patch,3762
+apply_patch > get_errors,3761
+get_file > get_file > get_file,3745
+get_projects_in_solution > get_files_in_project > get_file > get_file > get_file > get_file,3722
+get_file > apply_patch > run_build,3611
+detect_memories,3373
+edit_file,3213
+file_search > get_file > get_file > get_file > get_file > get_file,2978
+run_command_in_terminal > run_command_in_terminal > run_command_in_terminal > run_command_in_terminal,2818
+code_search > get_file > get_file > get_file > get_file > get_file,2788
+get_file > get_file > replace_string_in_file,2751
+get_file > replace_string_in_file > get_errors,2695
+replace_string_in_file > replace_string_in_file,2694
+run_build,2643

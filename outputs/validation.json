@@ -1,0 +1,516 @@
+{
+  "counts": {
+    "sessions": 301026,
+    "turns": 1189581,
+    "llm_calls": 9310255,
+    "prompt_segments": 886856935,
+    "tool_batches": 7849891,
+    "tool_calls": 8681190
+  },
+  "checks": [
+    {
+      "name": "count:sessions",
+      "status": "PASS",
+      "observed": 301026,
+      "expected": 301026,
+      "note": ""
+    },
+    {
+      "name": "count:turns",
+      "status": "PASS",
+      "observed": 1189581,
+      "expected": 1189581,
+      "note": ""
+    },
+    {
+      "name": "count:llm_calls",
+      "status": "PASS",
+      "observed": 9310255,
+      "expected": 9310255,
+      "note": ""
+    },
+    {
+      "name": "count:tool_batches",
+      "status": "FAIL",
+      "observed": 7849891,
+      "expected": 7767261,
+      "note": ""
+    },
+    {
+      "name": "count:tool_calls",
+      "status": "PASS",
+      "observed": 8681190,
+      "expected": 8681190,
+      "note": ""
+    },
+    {
+      "name": "distinct_models",
+      "status": "FAIL",
+      "observed": 38,
+      "expected": 37,
+      "note": ""
+    },
+    {
+      "name": "count:prompt_segments",
+      "status": "INFO",
+      "observed": 886856935,
+      "expected": null,
+      "note": "no published figure"
+    },
+    {
+      "name": "tokens:prompt",
+      "status": "PASS",
+      "observed": 631401670144,
+      "expected": 631400000000.0,
+      "note": "published values are rounded"
+    },
+    {
+      "name": "tokens:completion",
+      "status": "PASS",
+      "observed": 4914633421,
+      "expected": 4910000000.0,
+      "note": "published values are rounded"
+    },
+    {
+      "name": "tokens:cached",
+      "status": "PASS",
+      "observed": 540950119440,
+      "expected": 540950000000.0,
+      "note": "published values are rounded"
+    },
+    {
+      "name": "state_vs_parquet:sessions",
+      "status": "PASS",
+      "observed": 301026,
+      "expected": 301026,
+      "note": ""
+    },
+    {
+      "name": "state_vs_parquet:turns",
+      "status": "PASS",
+      "observed": 1189581,
+      "expected": 1189581,
+      "note": ""
+    },
+    {
+      "name": "state_vs_parquet:llm_calls",
+      "status": "PASS",
+      "observed": 9310255,
+      "expected": 9310255,
+      "note": ""
+    },
+    {
+      "name": "state_vs_parquet:prompt_segments",
+      "status": "PASS",
+      "observed": 886856935,
+      "expected": 886856935,
+      "note": ""
+    },
+    {
+      "name": "state_vs_parquet:tool_batches",
+      "status": "PASS",
+      "observed": 7849891,
+      "expected": 7849891,
+      "note": ""
+    },
+    {
+      "name": "state_vs_parquet:tool_calls",
+      "status": "PASS",
+      "observed": 8681190,
+      "expected": 8681190,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-01:n_sessions",
+      "status": "PASS",
+      "observed": 55870,
+      "expected": 55870,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-02:n_sessions",
+      "status": "PASS",
+      "observed": 60145,
+      "expected": 60145,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-03:n_sessions",
+      "status": "PASS",
+      "observed": 60202,
+      "expected": 60202,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-04:n_sessions",
+      "status": "PASS",
+      "observed": 55143,
+      "expected": 55143,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-05:n_sessions",
+      "status": "PASS",
+      "observed": 47863,
+      "expected": 47863,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-06:n_sessions",
+      "status": "PASS",
+      "observed": 10674,
+      "expected": 10674,
+      "note": ""
+    },
+    {
+      "name": "manifest:2026-06-07:n_sessions",
+      "status": "PASS",
+      "observed": 11129,
+      "expected": 11129,
+      "note": ""
+    },
+    {
+      "name": "duplicate_session_ids",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0,
+      "note": ""
+    },
+    {
+      "name": "duplicate_message_ids",
+      "status": "FAIL",
+      "observed": 8061081,
+      "expected": 0,
+      "note": "within a day"
+    },
+    {
+      "name": "anomaly:negative_llm_duration_ms",
+      "status": "INFO",
+      "observed": 23,
+      "expected": null,
+      "note": "team audit reported 4 (unconfirmed by Claude)"
+    },
+    {
+      "name": "anomaly:negative_tool_batch_duration_ms",
+      "status": "INFO",
+      "observed": 2,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:negative_tool_call_duration_ms",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:null_duration_llm",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:unparseable_or_null_llm_ts",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:unparseable_or_null_tool_ts",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:llm_ts_outside_window",
+      "status": "INFO",
+      "observed": 9581,
+      "expected": null,
+      "note": "window 2026-06-01..2026-06-08 UTC"
+    },
+    {
+      "name": "anomaly:tool_ts_outside_window",
+      "status": "INFO",
+      "observed": 7044,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "info:llm_ts_min_max",
+      "status": "INFO",
+      "observed": [
+        "2019-06-02 01:30:30+05:30",
+        "2026-07-07 10:28:17.598+05:30"
+      ],
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "info:outside_window_by_day_top20",
+      "status": "INFO",
+      "observed": [
+        [
+          "2026-06-01 00:00:00+05:30",
+          1461
+        ],
+        [
+          "2026-05-29 00:00:00+05:30",
+          1137
+        ],
+        [
+          "2026-05-28 00:00:00+05:30",
+          770
+        ],
+        [
+          "2026-04-19 00:00:00+05:30",
+          663
+        ],
+        [
+          "2026-05-31 00:00:00+05:30",
+          659
+        ],
+        [
+          "2026-05-26 00:00:00+05:30",
+          646
+        ],
+        [
+          "2026-04-18 00:00:00+05:30",
+          527
+        ],
+        [
+          "2026-05-20 00:00:00+05:30",
+          372
+        ],
+        [
+          "2026-06-08 00:00:00+05:30",
+          297
+        ],
+        [
+          "2026-05-27 00:00:00+05:30",
+          273
+        ],
+        [
+          "2026-04-24 00:00:00+05:30",
+          248
+        ],
+        [
+          "2026-05-21 00:00:00+05:30",
+          221
+        ],
+        [
+          "2025-09-12 00:00:00+05:30",
+          195
+        ],
+        [
+          "2026-05-30 00:00:00+05:30",
+          186
+        ],
+        [
+          "2026-05-19 00:00:00+05:30",
+          179
+        ],
+        [
+          "2026-04-11 00:00:00+05:30",
+          178
+        ],
+        [
+          "2026-05-25 00:00:00+05:30",
+          157
+        ],
+        [
+          "2026-05-22 00:00:00+05:30",
+          142
+        ],
+        [
+          "2026-07-02 00:00:00+05:30",
+          132
+        ],
+        [
+          "2026-04-20 00:00:00+05:30",
+          102
+        ]
+      ],
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:cached_gt_prompt",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:total_ne_prompt_plus_completion",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "info:cached_pct_min_max (scale 0-1 or 0-100?)",
+      "status": "INFO",
+      "observed": [
+        0.0,
+        100.0
+      ],
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "anomaly:cross_turn_tool_batch_refs",
+      "status": "INFO",
+      "observed": {
+        "cross": 5116,
+        "of_all_batches": 184495105,
+        "pct_of_all": 0.0028,
+        "matched": 184420208,
+        "unmatched": 74897
+      },
+      "expected": null,
+      "note": "team audit reported 0.98% (unconfirmed by Claude)"
+    },
+    {
+      "name": "probe:tool_batch_ts>=its_llm_call_ts",
+      "status": "INFO",
+      "observed": {
+        "share": 0.5025,
+        "pairs": 184420208
+      },
+      "expected": null,
+      "note": "supports 'timestamp = start' if ~1.0"
+    },
+    {
+      "name": "probe:tool_batch_ts>=llm_call_end",
+      "status": "INFO",
+      "observed": {
+        "share": 0.4499,
+        "pairs": 184420208
+      },
+      "expected": null,
+      "note": "tells whether batch starts after the call ends"
+    },
+    {
+      "name": "null:llm_calls.tokens_prompt",
+      "status": "INFO",
+      "observed": 255086,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "null:llm_calls.tokens_total",
+      "status": "INFO",
+      "observed": 255086,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "null:llm_calls.tokens_cached",
+      "status": "INFO",
+      "observed": 255260,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "null:llm_calls.duration_ms",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "null:llm_calls.n_segments",
+      "status": "INFO",
+      "observed": 327170,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "null:tool_batches.duration_ms",
+      "status": "INFO",
+      "observed": 0,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "null:tool_batches.auto_continue",
+      "status": "INFO",
+      "observed": 4371566,
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "info:tool_call_status_values",
+      "status": "INFO",
+      "observed": [
+        [
+          1,
+          7994017
+        ],
+        [
+          2,
+          391817
+        ],
+        [
+          0,
+          295356
+        ]
+      ],
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "info:llm_result_values",
+      "status": "INFO",
+      "observed": [
+        [
+          "Success",
+          9186585
+        ],
+        [
+          "UserCancel",
+          71936
+        ],
+        [
+          "Failure",
+          41997
+        ],
+        [
+          "UserFault",
+          9737
+        ]
+      ],
+      "expected": null,
+      "note": ""
+    },
+    {
+      "name": "info:null_token_calls_by_result",
+      "status": "INFO",
+      "observed": [
+        [
+          "UserCancel",
+          71936
+        ],
+        [
+          "Failure",
+          41997
+        ],
+        [
+          "Success",
+          131416
+        ],
+        [
+          "UserFault",
+          9737
+        ]
+      ],
+      "expected": null,
+      "note": ""
+    }
+  ],
+  "n_fail": 3
+}

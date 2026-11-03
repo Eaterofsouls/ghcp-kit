@@ -1,0 +1,2 @@
+n_calls,prompt_tokens,cached_tokens,cached_share_token_weighted,mean_call_cached_share,share_calls_zero_cache,n_calls_with_prompt_tokens,n_calls_with_cached_tokens,calls_cached_gt_prompt
+9310255,631401670144,540950119440,0.856744834578326,0.8589672216105239,0.061645644199693095,9055169,9054995,0
