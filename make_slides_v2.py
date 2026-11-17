@@ -155,15 +155,19 @@ def slide1(prs):
     rect(sl, Inches(0), Inches(0), W, Inches(0.055), ACCENT)
 
     # title area (white card centred)
-    card(sl, Inches(0.55), Inches(0.4), Inches(12.23), Inches(2.5))
+    card(sl, Inches(0.55), Inches(0.35), Inches(12.23), Inches(2.6))
 
     tb(sl, "Analysing GitHub Copilot\nAgentic Sessions at Scale",
-       Inches(0.8), Inches(0.52), Inches(11.7), Inches(1.5),
-       size=36, bold=True, colour=INK)
+       Inches(0.8), Inches(0.45), Inches(11.7), Inches(1.3),
+       size=32, bold=True, colour=INK)
 
-    tb(sl, "Azure Public Dataset  ghcp-coding-agent-2026  ·  CC BY 4.0  ·  7 days, June 2026",
-       Inches(0.8), Inches(1.98), Inches(11.0), Inches(0.4),
-       size=14, colour=MUTED)
+    tb(sl, "Daksh Chauhan  ·  USN: 1AUA23BCS027  (Sole Team Member)",
+       Inches(0.8), Inches(1.85), Inches(11.0), Inches(0.35),
+       size=14, bold=True, colour=ACCENT)
+
+    tb(sl, "GitHub: https://github.com/Eaterofsouls/ghcp-kit  ·  Azure Public Dataset ghcp-coding-agent-2026 (CC BY 4.0)",
+       Inches(0.8), Inches(2.25), Inches(11.0), Inches(0.35),
+       size=12, colour=MUTED)
 
     # 6 KPI cards (2 rows × 3)
     kpis = [
